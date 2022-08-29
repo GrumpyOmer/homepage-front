@@ -6,4 +6,6 @@ export default defineConfig({
   },
   routes: [{ path: '/', component: '@/pages/index' }],
   fastRefresh: {},
+  title: "Omer's Life Record",
+  favicon: 'spiderman.png',
 });
