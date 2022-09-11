@@ -7,10 +7,17 @@ export interface ImgInfo {
   src: any;
 }
 
-export default function Img(img: ImgInfo): any {
+export default function Img(img: ImgInfo[]): any {
+  let info = img.map(function (v: any, k: any) {
+    return (
+      <PhotoView key={k} src={v.src}>
+        {v.info}
+      </PhotoView>
+    );
+  });
   return (
-    <PhotoProvider maskOpacity={0.5} bannerVisible={false}>
-      <PhotoView src={img.src}>{img.info}</PhotoView>
+    <PhotoProvider maskOpacity={0.5} bannerVisible={false} photoClosable={true}>
+      {info}
     </PhotoProvider>
   );
 }
