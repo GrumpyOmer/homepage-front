@@ -2,7 +2,7 @@ import styles from './index.less';
 import List from './record/list';
 import React from 'react';
 import One from './record/one';
-import { Link } from 'umi';
+import { NavLink } from 'umi';
 import { GetRequest } from '../tool/http';
 import { useState } from 'react';
 import NbaSeason from './record/nba_season';
@@ -67,9 +67,16 @@ function PublicBottom() {
 
 function PublicPage(props: PublicPageParam) {
   return (
-    <div style={{ height: '100%' }}>
+    <div style={{ height: '100%', backgroundColor: 'rgb(241, 236, 228)' }}>
       <Title>
-        <Link to="/">Omer's Life Record</Link>
+        <NavLink
+          to="/"
+          activeStyle={{
+            color: 'rgb(68, 149, 211)',
+          }}
+        >
+          Omer's Life Record
+        </NavLink>
       </Title>
       <div className={styles.document}>
         <Left>{props.Left ? <props.Left /> : null}</Left>

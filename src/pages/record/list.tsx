@@ -1,5 +1,5 @@
 import styles from './list.less';
-import { Link } from 'umi';
+import { NavLink } from 'umi';
 
 export default function List() {
   interface dataObject {
@@ -15,7 +15,7 @@ export default function List() {
     },
     {
       date: '2022-09-09',
-      title: '一些美好的回忆',
+      title: '1983创意小镇的回忆',
       page: 'two',
     },
   ];
@@ -28,7 +28,14 @@ export default function List() {
           {v.date}
           &nbsp; &nbsp; &nbsp;
           <h1 className={styles.record}>
-            <Link to={path.concat(v.page)}>{v.title}</Link>
+            <NavLink
+              to={path.concat(v.page)}
+              activeStyle={{
+                color: 'rgb(68, 149, 211)',
+              }}
+            >
+              {v.title}
+            </NavLink>
           </h1>
         </div>
       </div>
