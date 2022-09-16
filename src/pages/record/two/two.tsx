@@ -2,97 +2,85 @@ import styles from './two.less';
 import React from 'react';
 import { PhotoProvider, PhotoView } from 'react-photo-view';
 import 'react-photo-view/dist/react-photo-view.css';
-import Img, { ImgInfo } from '../../tool/img';
+import Img, { ImgInfo } from '@/tool/img';
 export default function Two() {
   let memory1: ImgInfo = {
-    src: require('../../img/memory01.png'),
+    src: require('./img/memory01.png'),
     info: (
-      <img style={{ width: '500px' }} src={require('../../img/memory01.png')} />
+      <img style={{ width: '500px' }} src={require('./img/memory01.png')} />
     ),
   };
 
   let memory2: ImgInfo = {
-    src: require('../../img/memory02.png'),
+    src: require('./img/memory02.png'),
     info: (
-      <img style={{ width: '210px' }} src={require('../../img/memory02.png')} />
+      <img style={{ width: '210px' }} src={require('./img/memory02.png')} />
     ),
   };
 
   let memory3: ImgInfo = {
-    src: require('../../img/memory03.png'),
+    src: require('./img/memory03.png'),
     info: (
-      <img style={{ width: '200px' }} src={require('../../img/memory03.png')} />
+      <img style={{ width: '200px' }} src={require('./img/memory03.png')} />
     ),
   };
 
   let memory4: ImgInfo = {
-    src: require('../../img/memory04.png'),
+    src: require('./img/memory04.png'),
     info: (
-      <img style={{ width: '150px' }} src={require('../../img/memory04.png')} />
+      <img style={{ width: '150px' }} src={require('./img/memory04.png')} />
     ),
   };
 
   let memory5: ImgInfo = {
-    src: require('../../img/memory05.png'),
+    src: require('./img/memory05.png'),
     info: (
-      <img style={{ width: '200px' }} src={require('../../img/memory05.png')} />
+      <img style={{ width: '200px' }} src={require('./img/memory05.png')} />
     ),
   };
 
   let memory6: ImgInfo = {
-    src: require('../../img/memory06.png'),
+    src: require('./img/memory06.png'),
     info: (
-      <img style={{ width: '265px' }} src={require('../../img/memory06.png')} />
+      <img style={{ width: '265px' }} src={require('./img/memory06.png')} />
     ),
   };
 
   let memory7: ImgInfo = {
-    src: require('../../img/memory07.png'),
+    src: require('./img/memory07.png'),
     info: (
-      <img style={{ width: '192px' }} src={require('../../img/memory07.png')} />
+      <img style={{ width: '192px' }} src={require('./img/memory07.png')} />
     ),
   };
 
   let memory8: ImgInfo = {
-    src: require('../../img/memory08.png'),
+    src: require('./img/memory08.png'),
     info: (
-      <img style={{ width: '192px' }} src={require('../../img/memory08.png')} />
+      <img style={{ width: '192px' }} src={require('./img/memory08.png')} />
     ),
   };
   let memory9: ImgInfo = {
-    src: require('../../img/memory09.jpeg'),
+    src: require('./img/memory09.jpeg'),
     info: (
-      <img
-        style={{ width: '192px' }}
-        src={require('../../img/memory09.jpeg')}
-      />
+      <img style={{ width: '192px' }} src={require('./img/memory09.jpeg')} />
     ),
   };
   let memory10: ImgInfo = {
-    src: require('../../img/memory10.jpeg'),
+    src: require('./img/memory10.jpeg'),
     info: (
-      <img
-        style={{ width: '192px' }}
-        src={require('../../img/memory10.jpeg')}
-      />
+      <img style={{ width: '192px' }} src={require('./img/memory10.jpeg')} />
     ),
   };
   let memory11: ImgInfo = {
-    src: require('../../img/memory11.jpeg'),
+    src: require('./img/memory11.jpeg'),
     info: (
-      <img
-        style={{ width: '192px' }}
-        src={require('../../img/memory11.jpeg')}
-      />
+      <img style={{ width: '192px' }} src={require('./img/memory11.jpeg')} />
     ),
   };
   let memory12: ImgInfo = {
-    src: require('../../img/memory12.jpeg'),
+    src: require('./img/memory12.jpeg'),
     info: (
-      <img
-        style={{ width: '192px' }}
-        src={require('../../img/memory12.jpeg')}
-      />
+      <img style={{ width: '192px' }} src={require('./img/memory12.jpeg')} />
     ),
   };
 

@@ -1,13 +1,13 @@
 import styles from './index.less';
-import List from './record/list';
+import List from './record/list/list';
 import React from 'react';
-import One from './record/one';
+import One from './record/one/one';
 import { NavLink } from 'umi';
 import { GetRequest } from '../tool/http';
 import { useState } from 'react';
 import NbaSeason from './module/nba_season';
 import { useEffect } from 'react';
-import Two from './record/two';
+import Two from './record/two/two';
 interface PublicPageParam {
   Body?: React.FC;
   Left?: React.FC;
