@@ -5,7 +5,7 @@ import One from './record/one';
 import { NavLink } from 'umi';
 import { GetRequest } from '../tool/http';
 import { useState } from 'react';
-import NbaSeason from './record/nba_season';
+import NbaSeason from './module/nba_season';
 import { useEffect } from 'react';
 import Two from './record/two';
 interface PublicPageParam {
