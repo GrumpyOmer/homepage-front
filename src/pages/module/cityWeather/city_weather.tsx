@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import React from 'react';
-import { GetRequest } from '../../tool/http';
+import { GetRequest } from '../../../tool/http';
 import { useEffect } from 'react';
 import styles from './city_weather.less';
 

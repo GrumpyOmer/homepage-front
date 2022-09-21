@@ -1,5 +1,5 @@
 import React from 'react';
-import { GetRequest } from '../../tool/http';
+import { GetRequest } from '../../../tool/http';
 import { useState } from 'react';
 import { useEffect } from 'react';
 import styles from './nba_season.less';

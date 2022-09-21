@@ -5,11 +5,11 @@ import One from './record/one/one';
 import { NavLink } from 'umi';
 import { GetRequest } from '../tool/http';
 import { useState } from 'react';
-import NbaSeason from './module/nba_season';
+import NbaSeason from './module/nbaSeason/nba_season';
 import { useEffect } from 'react';
 import Two from './record/two/two';
 import fetchJsonp from 'fetch-jsonp';
-import { CityWeather } from './module/city_weather';
+import { CityWeather } from './module/cityWeather/city_weather';
 interface PublicPageParam {
   Body?: React.FC;
   Left?: React.FC;
