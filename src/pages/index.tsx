@@ -8,6 +8,8 @@ import { useState } from 'react';
 import NbaSeason from './module/nba_season';
 import { useEffect } from 'react';
 import Two from './record/two/two';
+import fetchJsonp from 'fetch-jsonp';
+import { CityWeather } from './module/city_weather';
 interface PublicPageParam {
   Body?: React.FC;
   Left?: React.FC;
@@ -19,6 +21,7 @@ export default function IndexPage(props: any) {
   let page = props.location.query.page;
   let pageParam: PublicPageParam = {
     Bottom: PublicBottom,
+    Left: CityWeather,
   };
   switch (page) {
     case 'one':
@@ -33,7 +36,6 @@ export default function IndexPage(props: any) {
       break;
   }
 
-  pageParam.Left = NbaSeason;
   return <PublicPage {...pageParam}></PublicPage>;
 }
 
