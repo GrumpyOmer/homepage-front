@@ -31,23 +31,23 @@ export function CityWeather() {
           setCityInfo(
             <div style={styles.temp}>
               <h1>
-                当前所在地 <br />
-                <h5>
+                <img src={require('./img/location.png')} />
+                <h3>
                   {cityInfoRes.province}
                   {cityInfoRes.city}
-                </h5>
+                </h3>
               </h1>
               <h1>
-                天气 <br />
-                <h5>{res.lives[0].weather}</h5>
+                <img src={require('./img/weather.png')} />
+                <h3>{res.lives[0].weather}</h3>
               </h1>
               <h1>
-                温度 <br />
-                <h5>{res.lives[0].temperature}</h5>
+                <img src={require('./img/temperature.png')} />
+                <h3>{res.lives[0].temperature}</h3>
               </h1>
               <h1>
-                空气湿度 <br />
-                <h5>{res.lives[0].humidity}</h5>
+                <img src={require('./img/humidity.png')} />
+                <h3>{res.lives[0].humidity}</h3>
               </h1>
             </div>,
           );
