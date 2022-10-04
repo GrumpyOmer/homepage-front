@@ -10,6 +10,7 @@ import { useEffect } from 'react';
 import Two from './record/two/two';
 import fetchJsonp from 'fetch-jsonp';
 import { CityWeather } from './module/cityWeather/city_weather';
+import Three from './record/three/three';
 interface PublicPageParam {
   Body?: React.FC;
   Left?: React.FC;
@@ -30,6 +31,9 @@ export default function IndexPage(props: any) {
 
     case 'two':
       pageParam.Body = Two;
+      break;
+    case 'three':
+      pageParam.Body = Three;
       break;
     default:
       pageParam.Body = List;

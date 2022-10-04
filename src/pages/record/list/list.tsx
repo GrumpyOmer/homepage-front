@@ -18,6 +18,11 @@ export default function List() {
       title: '1983创意小镇的回忆',
       page: 'two',
     },
+    {
+      date: '2022-10-04',
+      title: '回归自律',
+      page: 'three',
+    },
   ];
 
   let list = data.map(function (v: dataObject, k: number): Object {
