@@ -23,6 +23,11 @@ export default function List() {
       title: '回归自律',
       page: 'three',
     },
+    {
+      date: '2022-10-12',
+      title: 'We Are X',
+      page: 'four',
+    },
   ];
 
   let list = data.map(function (v: dataObject, k: number): Object {

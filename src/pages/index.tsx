@@ -11,6 +11,8 @@ import Two from './record/two/two';
 import fetchJsonp from 'fetch-jsonp';
 import { CityWeather } from './module/cityWeather/city_weather';
 import Three from './record/three/three';
+import Four from './record/four/four';
+
 interface PublicPageParam {
   Body?: React.FC;
   Left?: React.FC;
@@ -34,6 +36,9 @@ export default function IndexPage(props: any) {
       break;
     case 'three':
       pageParam.Body = Three;
+      break;
+    case 'four':
+      pageParam.Body = Four;
       break;
     default:
       pageParam.Body = List;

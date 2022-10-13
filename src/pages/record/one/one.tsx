@@ -29,12 +29,6 @@ export default function One() {
             &gt;十余年骨灰级玩家（2K08 ~ current）
           </li>
         </h3>
-        <h3>
-          <li>
-            &lt;<a href="https://store.steampowered.com/">steam</a>
-            &gt;大型单机游戏爱好者
-          </li>
-        </h3>
         <h2>
           <li>听摇滚乐</li>
         </h2>
@@ -42,7 +36,7 @@ export default function One() {
           <li>
             &lt;
             <a href="https://en.wikipedia.org/wiki/Marilyn_Manson">
-              marilyn manson
+              Marilyn Manson
             </a>
             &gt;多年忠实粉丝（2017 ~ current）
           </li>
@@ -54,6 +48,13 @@ export default function One() {
               Guns N' Roses
             </a>
             &gt;多年忠实粉丝（2016 ~ current）
+          </li>
+        </h3>
+        <h3>
+          <li>
+            &lt;
+            <a href="https://en.wikipedia.org/wiki/X_Japan">X JAPAN</a>
+            &gt;新X（2022 ~ current）
           </li>
         </h3>
         <h2>
