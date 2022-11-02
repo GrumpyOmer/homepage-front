@@ -16,7 +16,10 @@ export default function Four() {
         <h3>近期最大的惊喜就是发现了一支来自日本的传奇摇滚乐队：X JAPAN</h3>
         <h3>
           入坑曲是诞生于1989年的“摇滚三雨”之一：《endless
-          rain》。这是何等伟大何等有力量有感情的音乐，一个人静下心来欣赏的时候彷佛身体里所有的悲伤都被唤醒然后带走。
+          rain》。这是何等伟大何等有感情有力量的音乐，一个人静下心来欣赏的时候彷佛身体里所有的悲伤都被唤醒，然后再被雨水冲走。
+          虽是一首抒情风格的摇滚乐，但是整首曲子大气磅礴，无一丝颓废，更是给人一种越是带着伤痛就越要努力向前走的力量。“let
+          my heart, take in your tears, take in your
+          memorries”，这个作品的伟大就在于悲壮，而不是悲伤。
         </h3>
         <h3>
           包括《Without You》《The Last Song》《Tears》《红》《Say
