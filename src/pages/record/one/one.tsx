@@ -20,13 +20,13 @@ export default function One() {
         <h3>
           <li>
             &lt;<a href="http://xyq.163.com/">梦幻西游</a>
-            &gt;十余年骨灰级玩家（2007 ~ current）
+            &gt;（2007 ~ current）
           </li>
         </h3>
         <h3>
           <li>
             &lt;<a href="https://www.nba2k.com/">NBA2K系列</a>
-            &gt;十余年骨灰级玩家（2K08 ~ current）
+            &gt;（2K08 ~ current）
           </li>
         </h3>
         <h2>
@@ -38,7 +38,7 @@ export default function One() {
             <a href="https://en.wikipedia.org/wiki/Marilyn_Manson">
               Marilyn Manson
             </a>
-            &gt;多年忠实粉丝（2017 ~ current）
+            &gt;（2017 ~ current）
           </li>
         </h3>
         <h3>
@@ -47,14 +47,14 @@ export default function One() {
             <a href="https://en.wikipedia.org/wiki/Guns_N%27_Roses">
               Guns N' Roses
             </a>
-            &gt;多年忠实粉丝（2016 ~ current）
+            &gt;（2016 ~ current）
           </li>
         </h3>
         <h3>
           <li>
             &lt;
             <a href="https://en.wikipedia.org/wiki/X_Japan">X JAPAN</a>
-            &gt;新X（2022 ~ current）
+            &gt;（2022 ~ current）
           </li>
         </h3>
         <h2>
@@ -62,13 +62,13 @@ export default function One() {
         </h2>
         <h3>
           <li>
-            篮球爱好者，大学计算机专业系篮球队替补一枚
+            大学计算机专业篮球系队替补（2014 ~ 2015）
             <br />
-            NBA现役篮球巨星
+            篮球偶像是NBA现役篮球巨星
             <a href="https://en.wikipedia.org/wiki/James_Harden">
               james harden
             </a>
-            多年铁粉（2011 ~ current）
+            （2011 ~ current）
           </li>
         </h3>
       </ul>
