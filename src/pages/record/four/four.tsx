@@ -8,6 +8,11 @@ export default function Four() {
       <img style={{ width: '500px' }} src={require('./img/X-japan-009.jpg')} />
     ),
   };
+  let Player = (
+    <audio controls autoPlay hidden>
+      <source src="./C400003M5KKA3Ydw0O.mp3" type="audio/mp3"></source>
+    </audio>
+  );
 
   return (
     <div className={styles.four}>
@@ -23,8 +28,8 @@ export default function Four() {
         </h3>
         <h3>
           包括《Without You》《The Last Song》《Tears》《红》《Say
-          Anything》《Rusty Nail》《Forever
-          Love》等等在内的歌曲，X的创作真的太强太强了。
+          Anything》《Rusty Nail》《Forever Love》《Week
+          End》《Longing》等等在内的歌曲，X的创作真的太强太强了。
           X的歌有一种置之死地而后生的力量，一种毁灭的力量，一种重生的力量。
         </h3>
         <h3 style={{ color: 'rgb(186, 71, 89)' }}>
@@ -34,6 +39,7 @@ export default function Four() {
         </h3>
         <h3>希望有一天有机会能够去现场看看X，看看Yoshiki。</h3>
         <h3>Now We Are X</h3>
+        <div>{Player}</div>
       </div>
     </div>
   );
