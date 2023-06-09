@@ -13,10 +13,10 @@ export default function Four() {
       <source src="./C400003M5KKA3Ydw0O.mp3" type="audio/mp3"></source>
     </audio>
   );
-
   return (
     <div className={styles.four}>
       {Img([img1])}
+      {Player}
       <div className={styles.box}>
         <h3>近期最大的惊喜就是发现了一支来自日本的传奇摇滚乐队：X JAPAN</h3>
         <h3>
@@ -39,7 +39,6 @@ export default function Four() {
         </h3>
         <h3>希望有一天有机会能够去现场看看X，看看Yoshiki。</h3>
         <h3>Now We Are X</h3>
-        <div>{Player}</div>
       </div>
     </div>
   );

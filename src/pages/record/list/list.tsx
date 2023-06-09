@@ -28,6 +28,11 @@ export default function List() {
       title: 'We Are X',
       page: 'four',
     },
+    // {
+    //   date: '2023-08-03',
+    //   title: '聊聊最近的心态变化',
+    //   page: 'five',
+    // },
   ];
 
   let list = data.map(function (v: dataObject, k: number): Object {
@@ -38,14 +43,7 @@ export default function List() {
           {v.date}
           &nbsp; &nbsp; &nbsp;
           <h1 className={styles.record}>
-            <NavLink
-              to={path.concat(v.page)}
-              activeStyle={{
-                color: 'rgb(68, 149, 211)',
-              }}
-            >
-              {v.title}
-            </NavLink>
+            <NavLink to={path.concat(v.page)}>{v.title}</NavLink>
           </h1>
         </div>
       </div>

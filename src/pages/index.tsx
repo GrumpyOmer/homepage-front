@@ -2,7 +2,7 @@ import styles from './index.less';
 import List from './record/list/list';
 import React from 'react';
 import One from './record/one/one';
-import { NavLink } from 'umi';
+import { NavLink, plugin } from 'umi';
 import { GetRequest } from '../tool/http';
 import { useState } from 'react';
 import NbaSeason from './module/nbaSeason/nba_season';
@@ -12,6 +12,7 @@ import fetchJsonp from 'fetch-jsonp';
 import { CityWeather } from './module/cityWeather/city_weather';
 import Three from './record/three/three';
 import Four from './record/four/four';
+import Five from './record/five/five';
 
 interface PublicPageParam {
   Body?: React.FC;
@@ -40,6 +41,9 @@ export default function IndexPage(props: any) {
     case 'four':
       pageParam.Body = Four;
       break;
+    case 'five':
+      pageParam.Body = Five;
+      break;
     default:
       pageParam.Body = List;
       break;
@@ -57,6 +61,13 @@ function PublicBottom() {
       <h3>My GitHub</h3>
     </a>
   );
+
+  let twitter = (
+    <a href="https://twitter.com/GrumpyOmer?s=09">
+      <img src={require('../img/twitter.png')} />
+      <h3>My Twitter</h3>
+    </a>
+  );
   return (
     <div
       style={{
@@ -69,6 +80,7 @@ function PublicBottom() {
         {wechat} <h3>GrumpyOmer</h3>
       </div>
       <div>{github}</div>
+      <div>{twitter}</div>
       <div>
         {qq} <h3>353286116</h3>
       </div>
@@ -78,16 +90,9 @@ function PublicBottom() {
 
 function PublicPage(props: PublicPageParam) {
   return (
-    <div style={{ height: '100%', backgroundColor: 'rgb(241, 236, 228)' }}>
+    <div style={{ height: '100%' }}>
       <Title>
-        <NavLink
-          to="/"
-          activeStyle={{
-            color: 'rgb(68, 149, 211)',
-          }}
-        >
-          Omer's Life Record
-        </NavLink>
+        <NavLink to="/">Omer's Life Record</NavLink>
       </Title>
       <div className={styles.document}>
         <Left>{props.Left ? <props.Left /> : null}</Left>
