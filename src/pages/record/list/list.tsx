@@ -28,11 +28,11 @@ export default function List() {
       title: 'We Are X',
       page: 'four',
     },
-    //     {
-    //       date: '2023-08-21',
-    //       title: '近况',
-    //       page: 'five',
-    //     },
+    {
+      date: '2024-03-28',
+      title: '日本行✈️',
+      page: 'five',
+    },
   ];
 
   let list = data.map(function (v: dataObject, k: number): Object {
